@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Login guru on Chrome</td><td class="numi">20</td><td class="numi">20</td><td class="numi">0</td><td class="numi">0</td><td class="numi">52,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Login guru on Chrome &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="20">com.beecow.testcase.HomePageScript</td><td><a href="#m1"><b>testcase_01</b>  </a></td><td class="numi">1</td><td>1558001219719</td><td class="numi">13793</td></tr><tr class="passedodd"><td><a href="#m2"><b>testcase_02</b>  </a></td><td class="numi">1</td><td>1558001233520</td><td class="numi">1034</td></tr><tr class="passedodd"><td><a href="#m3"><b>testcase_03</b>  </a></td><td class="numi">1</td><td>1558001234556</td><td class="numi">1052</td></tr><tr class="passedodd"><td><a href="#m4"><b>testcase_04</b>  </a></td><td class="numi">1</td><td>1558001235610</td><td class="numi">2421</td></tr><tr class="passedodd"><td><a href="#m5"><b>testcase_05</b>  </a></td><td class="numi">1</td><td>1558001238032</td><td class="numi">3417</td></tr><tr class="passedodd"><td><a href="#m6"><b>testcase_06</b>  </a></td><td class="numi">1</td><td>1558001241451</td><td class="numi">1293</td></tr><tr class="passedodd"><td><a href="#m7"><b>testcase_07</b>  </a></td><td class="numi">1</td><td>1558001242746</td><td class="numi">445</td></tr><tr class="passedodd"><td><a href="#m8"><b>testcase_08</b>  </a></td><td class="numi">1</td><td>1558001243194</td><td class="numi">371</td></tr><tr class="passedodd"><td><a href="#m9"><b>testcase_09</b>  </a></td><td class="numi">1</td><td>1558001243566</td><td class="numi">400</td></tr><tr class="passedodd"><td><a href="#m10"><b>testcase_10</b>  </a></td><td class="numi">1</td><td>1558001243968</td><td class="numi">370</td></tr><tr class="passedodd"><td><a href="#m11"><b>testcase_11</b>  </a></td><td class="numi">1</td><td>1558001244340</td><td class="numi">570</td></tr><tr class="passedodd"><td><a href="#m12"><b>testcase_12</b>  </a></td><td class="numi">1</td><td>1558001244912</td><td class="numi">405</td></tr><tr class="passedodd"><td><a href="#m13"><b>testcase_13</b>  </a></td><td class="numi">1</td><td>1558001245319</td><td class="numi">279</td></tr><tr class="passedodd"><td><a href="#m14"><b>testcase_14</b>  </a></td><td class="numi">1</td><td>1558001245600</td><td class="numi">535</td></tr><tr class="passedodd"><td><a href="#m15"><b>testcase_15</b>  </a></td><td class="numi">1</td><td>1558001246137</td><td class="numi">562</td></tr><tr class="passedodd"><td><a href="#m16"><b>testcase_16</b>  </a></td><td class="numi">1</td><td>1558001246701</td><td class="numi">310</td></tr><tr class="passedodd"><td><a href="#m17"><b>testcase_17</b>  </a></td><td class="numi">1</td><td>1558001247013</td><td class="numi">299</td></tr><tr class="passedodd"><td><a href="#m18"><b>testcase_18</b>  </a></td><td class="numi">1</td><td>1558001247314</td><td class="numi">336</td></tr><tr class="passedodd"><td><a href="#m19"><b>testcase_19</b>  </a></td><td class="numi">1</td><td>1558001247652</td><td class="numi">1729</td></tr><tr class="passedodd"><td><a href="#m20"><b>testcase_20</b>  </a></td><td class="numi">1</td><td>1558001249383</td><td class="numi">3028</td></tr>
+</table>
+<h1>Login guru on Chrome</h1>
+<h2 id="m1">com.beecow.testcase.HomePageScript:testcase_05</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.beecow.testcase.HomePageScript:testcase_18</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.beecow.testcase.HomePageScript:testcase_01</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.beecow.testcase.HomePageScript:testcase_12</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.beecow.testcase.HomePageScript:testcase_07</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.beecow.testcase.HomePageScript:testcase_02</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.beecow.testcase.HomePageScript:testcase_17</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.beecow.testcase.HomePageScript:testcase_13</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.beecow.testcase.HomePageScript:testcase_08</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.beecow.testcase.HomePageScript:testcase_04</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.beecow.testcase.HomePageScript:testcase_09</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.beecow.testcase.HomePageScript:testcase_15</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.beecow.testcase.HomePageScript:testcase_19</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.beecow.testcase.HomePageScript:testcase_03</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.beecow.testcase.HomePageScript:testcase_20</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.beecow.testcase.HomePageScript:testcase_16</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.beecow.testcase.HomePageScript:testcase_14</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.beecow.testcase.HomePageScript:testcase_11</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.beecow.testcase.HomePageScript:testcase_06</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.beecow.testcase.HomePageScript:testcase_10</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

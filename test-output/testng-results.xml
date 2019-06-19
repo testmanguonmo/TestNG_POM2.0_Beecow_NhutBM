@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52107" started-at="2019-05-16T10:06:40Z" finished-at="2019-05-16T10:07:33Z">
+    <groups>
+    </groups>
+    <test name="Login guru on Chrome" duration-ms="52107" started-at="2019-05-16T10:06:40Z" finished-at="2019-05-16T10:07:33Z">
+      <class name="com.beecow.testcase.HomePageScript">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="beforeClass" is-config="true" duration-ms="18770" started-at="2019-05-16T17:06:40Z" finished-at="2019-05-16T17:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[74.0.3729.6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.beecow.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testcase_01()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_01" duration-ms="13793" started-at="2019-05-16T17:06:59Z" finished-at="2019-05-16T17:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_01 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="7" started-at="2019-05-16T17:07:13Z" finished-at="2019-05-16T17:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_01 status=SUCCESS method=HomePageScript.testcase_01()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_02()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_02" duration-ms="1034" started-at="2019-05-16T17:07:13Z" finished-at="2019-05-16T17:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_02 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:14Z" finished-at="2019-05-16T17:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_02 status=SUCCESS method=HomePageScript.testcase_02()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_03()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_03" duration-ms="1052" started-at="2019-05-16T17:07:14Z" finished-at="2019-05-16T17:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_03 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:15Z" finished-at="2019-05-16T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_03 status=SUCCESS method=HomePageScript.testcase_03()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_04()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_04" duration-ms="2421" started-at="2019-05-16T17:07:15Z" finished-at="2019-05-16T17:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_04 -->
+        <test-method status="PASS" signature="testcase_05()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_05" duration-ms="3417" started-at="2019-05-16T17:07:18Z" finished-at="2019-05-16T17:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_05 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-16T17:07:18Z" finished-at="2019-05-16T17:07:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_04 status=SUCCESS method=HomePageScript.testcase_04()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:21Z" finished-at="2019-05-16T17:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_05 status=SUCCESS method=HomePageScript.testcase_05()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_06()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_06" duration-ms="1293" started-at="2019-05-16T17:07:21Z" finished-at="2019-05-16T17:07:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_06 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:22Z" finished-at="2019-05-16T17:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_06 status=SUCCESS method=HomePageScript.testcase_06()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_07()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_07" duration-ms="445" started-at="2019-05-16T17:07:22Z" finished-at="2019-05-16T17:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_07 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:23Z" finished-at="2019-05-16T17:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_07 status=SUCCESS method=HomePageScript.testcase_07()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_08()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_08" duration-ms="371" started-at="2019-05-16T17:07:23Z" finished-at="2019-05-16T17:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_08 -->
+        <test-method status="PASS" signature="testcase_09()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_09" duration-ms="400" started-at="2019-05-16T17:07:23Z" finished-at="2019-05-16T17:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_09 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-16T17:07:23Z" finished-at="2019-05-16T17:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_08 status=SUCCESS method=HomePageScript.testcase_08()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:23Z" finished-at="2019-05-16T17:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_09 status=SUCCESS method=HomePageScript.testcase_09()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_10()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_10" duration-ms="370" started-at="2019-05-16T17:07:23Z" finished-at="2019-05-16T17:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_10 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:24Z" finished-at="2019-05-16T17:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_10 status=SUCCESS method=HomePageScript.testcase_10()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_11()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_11" duration-ms="570" started-at="2019-05-16T17:07:24Z" finished-at="2019-05-16T17:07:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_11 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:24Z" finished-at="2019-05-16T17:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_11 status=SUCCESS method=HomePageScript.testcase_11()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_12()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_12" duration-ms="405" started-at="2019-05-16T17:07:24Z" finished-at="2019-05-16T17:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_12 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:25Z" finished-at="2019-05-16T17:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_12 status=SUCCESS method=HomePageScript.testcase_12()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_13()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_13" duration-ms="279" started-at="2019-05-16T17:07:25Z" finished-at="2019-05-16T17:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_13 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-16T17:07:25Z" finished-at="2019-05-16T17:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_13 status=SUCCESS method=HomePageScript.testcase_13()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_14()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_14" duration-ms="535" started-at="2019-05-16T17:07:25Z" finished-at="2019-05-16T17:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_14 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:26Z" finished-at="2019-05-16T17:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_14 status=SUCCESS method=HomePageScript.testcase_14()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_15()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_15" duration-ms="562" started-at="2019-05-16T17:07:26Z" finished-at="2019-05-16T17:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_15 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:26Z" finished-at="2019-05-16T17:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_15 status=SUCCESS method=HomePageScript.testcase_15()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_16()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_16" duration-ms="310" started-at="2019-05-16T17:07:26Z" finished-at="2019-05-16T17:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_16 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-05-16T17:07:27Z" finished-at="2019-05-16T17:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_16 status=SUCCESS method=HomePageScript.testcase_16()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_17()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_17" duration-ms="299" started-at="2019-05-16T17:07:27Z" finished-at="2019-05-16T17:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_17 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:27Z" finished-at="2019-05-16T17:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_17 status=SUCCESS method=HomePageScript.testcase_17()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_18()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_18" duration-ms="336" started-at="2019-05-16T17:07:27Z" finished-at="2019-05-16T17:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_18 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-16T17:07:27Z" finished-at="2019-05-16T17:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_18 status=SUCCESS method=HomePageScript.testcase_18()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_19()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_19" duration-ms="1729" started-at="2019-05-16T17:07:27Z" finished-at="2019-05-16T17:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_19 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:29Z" finished-at="2019-05-16T17:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_19 status=SUCCESS method=HomePageScript.testcase_19()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testcase_20()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="testcase_20" duration-ms="3028" started-at="2019-05-16T17:07:29Z" finished-at="2019-05-16T17:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_20 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-16T17:07:32Z" finished-at="2019-05-16T17:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testcase_20 status=SUCCESS method=HomePageScript.testcase_20()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.beecow.testcase.HomePageScript@6767c1fc]" name="afterClass" is-config="true" duration-ms="620" started-at="2019-05-16T17:07:32Z" finished-at="2019-05-16T17:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.beecow.testcase.HomePageScript -->
+    </test> <!-- Login guru on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
